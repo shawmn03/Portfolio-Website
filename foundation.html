@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Foundation | Megan Shaw</title>
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="https://use.typekit.net/rmd4nzf.css">
+</head>
+<body>
+
+  <header class="sticky-header">
+    <div class="header-container">
+      <a href="index.html" class="logo">Megan Shaw.</a>
+      <nav class="nav-links">
+        <a href="resume.html">Resume</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <a href="portfolio.html" class="back-link">&larr; portfolio</a>
+    
+    <h1 class="page-title">Art Foundation</h1>
+    <h2 class="class-year">Fall 2022 & Spring 2023</h2>
+
+    <section class="carousel-container">
+      <button class="carousel-btn prev" aria-label="Previous Slide">&#10094;</button>
+      
+      <div class="carousel-track">
+        <img src="images/freshman1.jpg" alt="Project Mockup 1" class="carousel-slide">
+        <img src="images/freshman2.jpg" alt="Project Mockup 2" class="carousel-slide">
+      </div>
+
+      <button class="carousel-btn next" aria-label="Next Slide">&#10095;</button>
+    </section>
+
+    <section class="project-description">
+      <p>Each of these 18 x 24” graphite drawings are a testament to a variety of traditional rendering techniques, all completed in an intense one week period. The leading work shows exact fidelity to observation and precision to scale. The lower drawing, on the other hand, is a conceptual compositing, a kind of 'human Photoshop' in which I manipulated the scale of and combined several source images into a single hand drawn composition.</p>
+    </section>
+
+    <img src="images/abstract.jpg" alt="Project Mockup 4" class="carousel-slide" style="max-width: 900px; margin: 0 auto 2rem auto; border-radius: 8px; display: block;">
+
+    <section class="project-description">
+      <p>Heavy textures are used to create a physical sense of depth in this 18 x 24” abstract acrylic painting. The ivy was sculpted to come off the canvas in three dimensions by mixing acrylic paint with texture sand, giving a dynamic, tactile element to the visual composition.</p>
+    </section>
+  </main>
+
+  <footer class="sticky-footer">
+    <p>designed and coded by Megan Shaw</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Fullscreen view">
+  </div>
+
+  <script src="js/portfolio.js"></script>
+</body>
+</html>
